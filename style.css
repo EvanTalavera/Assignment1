@@ -5,6 +5,7 @@ nav{
     justify-content: space-around;
     font: "Times New Roman";
     font-size: 24px;
+    background-color: bisque;
 }
 
 .background {
@@ -21,5 +22,16 @@ nav{
     font-family: 'Roboto', sans-serif;
     color: #FFF;
     font-size: 48px;
+
+}
+
+#intro{
+    position: absolute;
+    font-family: "Times New Roman", sans-serif;
+    font-size: 16px;
+    background-color: bisque;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
 
 }
