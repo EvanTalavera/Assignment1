@@ -1,0 +1,25 @@
+nav{
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font: "Times New Roman";
+    font-size: 24px;
+}
+
+.background {
+    width: 100%;
+    height: 450px;
+
+}
+#greeting{
+    z-index: 1;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Roboto', sans-serif;
+    color: #FFF;
+    font-size: 48px;
+
+}
