@@ -5,15 +5,25 @@ nav{
     justify-content: space-around;
     font: "Times New Roman";
     font-size: 24px;
-    background-color: bisque;
+    background-color: #696969;
+}
+a{
+    font-family: 'Roboto', sans-serif;
+    color:white;
+}
+
+body{
+    background-color:#696969;
 }
 
 .background {
+    display:flex;
     width: 100%;
     height: 450px;
 
 }
 #greeting{
+    display: flex;
     z-index: 1;
     position: absolute;
     top: 30%;
@@ -25,13 +35,65 @@ nav{
 
 }
 
+
 #intro{
-    position: absolute;
-    font-family: "Times New Roman", sans-serif;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    background-color: bisque;
+    color: #FFF;
     left: 50%;
     transform: translate(-50%, -50%);
+
     
 
 }
+
+.button{
+    position: relative;
+    width: 80%;
+    background-color:#A9A9A9;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 5px;
+
+
+}
+
+
+.summary{
+    display: flex;
+    max-width: 100%;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: top;
+
+}
+
+.content{
+    display:flex;
+    max-width:25%;
+    flex-flow: column wrap;
+    background-color:	#808080;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 5px;
+
+
+}
+
+
