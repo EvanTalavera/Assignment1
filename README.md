@@ -12,17 +12,14 @@ This website allows potential clients / employers quickly and conveniently acces
 
 ## Features
 
-Navigation menu: Allows for the viewer to quickly navigate through the different pages of the website
-Modular project page: Easily allows website admin to add more projects
+- Navigation menu: Allows for the viewer to quickly navigate through the different pages of the website
+- Modular project page: Easily allows website admin to add more projects
 
  
-### Existing Features
-- ...
 
 
 
-### Features Left to Implement
-- 
+
 ## Technologies Used
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
